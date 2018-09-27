@@ -1,5 +1,5 @@
 import { isOdd } from '@writetome51/number-analysis-basic/isOdd_isEven';
-import { getRoundedDown } 
+import { getRoundedDown }
 	from '@writetome51/get-rounded-up-down/getRounded_getRoundedDown_getRoundedUp';
 
 

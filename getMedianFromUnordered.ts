@@ -1,4 +1,4 @@
-import { getInAscendingOrder } from './getInAscendingOrder';
+import { getInAscendingOrder } from '@writetome51/get-in-ascending-order/getInAscendingOrder';
 import { getMedian } from './getMedian';
 
 

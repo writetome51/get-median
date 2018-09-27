@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var isOdd_isEven_1 = require("../return_boolean/isOdd_isEven");
-var getRounded_getRoundedDown_getRoundedUp_1 = require("./getRounded_getRoundedDown_getRoundedUp");
+var isOdd_isEven_1 = require("@writetome51/number-analysis-basic/isOdd_isEven");
+var getRounded_getRoundedDown_getRoundedUp_1 = require("@writetome51/get-rounded-up-down/getRounded_getRoundedDown_getRoundedUp");
 // This function assumes that numbers have already been sorted in proper order
 // before being passed in.  If you need a function that gets the median from unordered
 // numbers, use getMedianFromUnordered().
