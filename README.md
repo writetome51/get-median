@@ -1,0 +1,1 @@
+This function returns the median from an array of numbers.

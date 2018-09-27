@@ -1,0 +1,23 @@
+{
+  "name": "@writetome51/get-median",
+  "version": "1.0.0",
+  "description": "Returns the median from an array of numbers.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "numbers",
+    "statistics"
+    "median"
+  ],
+  "author": "Steve Thompson",
+  "license": "FREE",
+  "homepage": "",
+  "dependencies": {
+    "@writetome51/number-analysis-basic": "latest",
+    "@writetome51/get-rounded-up-down": "latest",
+    "@writetome51/get-in-ascending-order": "latest"
+  }
+}
