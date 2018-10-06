@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-median",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns the median from an array of numbers.",
   "main": "",
   "scripts": {
@@ -16,8 +16,11 @@
   "license": "FREE",
   "homepage": "",
   "dependencies": {
+    "basic-data-handling": "latest",
     "@writetome51/number-analysis-basic": "latest",
     "@writetome51/get-rounded-up-down": "latest",
-    "@writetome51/get-in-ascending-order": "latest"
+    "@writetome51/get-in-ascending-order": "latest",
+    "error-if-not-all-values-are-numbers": "latest",
+    "error-if-not-populated-array": "latest"
   }
 }

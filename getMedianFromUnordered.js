@@ -7,5 +7,3 @@ function getMedianFromUnordered(numbers) {
     return getMedian_1.getMedian(numbers);
 }
 exports.getMedianFromUnordered = getMedianFromUnordered;
-var set = [20, 5, 10, 2, 30, 6, 1];
-console.log(getMedianFromUnordered(set));
