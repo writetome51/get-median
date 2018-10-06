@@ -1,1 +1,1 @@
-This function returns the median from an array of numbers.
+Two functions that return the median from an array of numbers.
