@@ -1,16 +1,14 @@
-import { isOdd } from '@writetome51/number-analysis-basic/isOdd_isEven';
-import { getRoundedDown }
-	from '@writetome51/get-rounded-up-down/getRounded_getRoundedDown_getRoundedUp';
+import { isOdd } from '@writetome51/is-odd-is-even';
+import { getRoundedDown } from '@writetome51/get-rounded-up-down';
 import { errorIfNotAllValuesAreNumbers } from 'error-if-not-all-values-are-numbers';
 import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 import { errorIfNotNumber } from 'basic-data-handling/errorIfNotNumber';
 
 
 // This function assumes that numbers have already been sorted in proper order
-// before being passed in.  If you need a function that gets the median from unordered
-// numbers, use getMedianFromUnordered().
+// before being passed in.  It doesn't check to make sure they are, so be sure.
 
-export function getMedian(orderedNumbers: number[]): number {
+export function getMedianFromOrdered(orderedNumbers: number[]): number {
 	errorIfNotPopulatedArray(orderedNumbers);
 	let halfLength = orderedNumbers.length / 2;
 
