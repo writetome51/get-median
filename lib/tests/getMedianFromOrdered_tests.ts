@@ -102,3 +102,4 @@ result = getMedianFromOrdered([3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58, 63,
 median = 35.5;
 if (result === median) console.log('test 8 passed');
 else console.log('test 8 failed');
+//
