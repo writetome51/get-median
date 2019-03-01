@@ -1,4 +1,4 @@
-import { getMedianFromOrdered } from '../getMedianFromOrdered';
+import { getMedianFromOrdered } from '../privy/getMedianFromOrdered';
 
 
 // Test 1: error must be triggered if no argument is passed:
