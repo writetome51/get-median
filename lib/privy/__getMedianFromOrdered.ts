@@ -8,7 +8,7 @@ import { errorIfNotNumber } from 'basic-data-handling/errorIfNotNumber';
 // This function assumes that numbers have already been sorted in proper order
 // before being passed in.  It doesn't check to make sure they are, so be sure.
 
-export function getMedianFromOrdered(orderedNumbers: number[]): number {
+export function __getMedianFromOrdered(orderedNumbers: number[]): number {
 	errorIfNotPopulatedArray(orderedNumbers);
 	let halfLength = orderedNumbers.length / 2;
 

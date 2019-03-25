@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-median",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Returns the median from an array of numbers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,7 @@
     "basic-data-handling": "~1.0.15",
     "@writetome51/is-odd-is-even": "~1.0.2",
     "@writetome51/get-rounded-up-down": "~1.0.9",
-    "@writetome51/get-in-ascending-order": "~1.0.6",
+    "@writetome51/get-in-numeric-order": "~1.0.0",
     "error-if-not-all-values-are-numbers": "~1.0.1",
     "error-if-not-populated-array": "~1.0.1"
   }

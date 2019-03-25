@@ -7,7 +7,7 @@ var error_if_not_populated_array_1 = require("error-if-not-populated-array");
 var errorIfNotNumber_1 = require("basic-data-handling/errorIfNotNumber");
 // This function assumes that numbers have already been sorted in proper order
 // before being passed in.  It doesn't check to make sure they are, so be sure.
-function getMedianFromOrdered(orderedNumbers) {
+function __getMedianFromOrdered(orderedNumbers) {
     error_if_not_populated_array_1.errorIfNotPopulatedArray(orderedNumbers);
     var halfLength = orderedNumbers.length / 2;
     if (is_odd_is_even_1.isOdd(orderedNumbers.length)) {
@@ -22,4 +22,4 @@ function getMedianFromOrdered(orderedNumbers) {
         return ((orderedNumbers[halfLength - 1] + orderedNumbers[halfLength]) / 2);
     }
 }
-exports.getMedianFromOrdered = getMedianFromOrdered;
+exports.__getMedianFromOrdered = __getMedianFromOrdered;

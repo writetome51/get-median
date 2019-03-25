@@ -1,8 +1,8 @@
-import { getInAscendingOrder } from '@writetome51/get-in-ascending-order';
-import { getMedianFromOrdered } from './privy/getMedianFromOrdered';
+import { getInNumericOrder } from '@writetome51/get-in-numeric-order';
+import { __getMedianFromOrdered } from './privy/__getMedianFromOrdered';
 
 
 export function getMedian(numbers): number {
-	let orderedNumbers = getInAscendingOrder(numbers);
-	return getMedianFromOrdered(orderedNumbers);
+	let orderedNumbers = getInNumericOrder(numbers);
+	return __getMedianFromOrdered(orderedNumbers);
 }
