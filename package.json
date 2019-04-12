@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-median",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Returns the median from an array of numbers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,18 +10,20 @@
   "keywords": [
     "math",
     "numbers",
+    "data",
+    "set",
     "statistics",
     "median"
   ],
   "author": "Steve Thompson",
-  "license": "FREE",
+  "license": "MIT",
   "homepage": "https://github.com/writetome51/get-median#readme",
   "dependencies": {
-    "basic-data-handling": "~1.0.15",
-    "@writetome51/is-odd-is-even": "~1.0.2",
-    "@writetome51/get-rounded-up-down": "~1.0.9",
-    "@writetome51/get-in-numeric-order": "~1.0.0",
-    "error-if-not-all-values-are-numbers": "~1.0.1",
-    "error-if-not-populated-array": "~1.0.1"
+    "@writetome51/is-odd-is-even": "~1.0.3",
+    "@writetome51/get-rounded-up-down": "~1.0.10",
+    "@writetome51/get-in-numeric-order": "~1.0.1",
+    "error-if-not-all-finite-numbers": "~1.0.0",
+    "error-if-not-populated-array": "~1.0.2",
+    "error-if-not-finite-number": "~1.0.0"
   }
 }

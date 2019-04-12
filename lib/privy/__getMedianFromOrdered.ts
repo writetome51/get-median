@@ -1,8 +1,8 @@
 import { isOdd } from '@writetome51/is-odd-is-even';
 import { getRoundedDown } from '@writetome51/get-rounded-up-down';
-import { errorIfNotAllValuesAreNumbers } from 'error-if-not-all-values-are-numbers';
+import { errorIfNotAllFiniteNumbers } from 'error-if-not-all-finite-numbers';
 import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
-import { errorIfNotNumber } from 'basic-data-handling/errorIfNotNumber';
+import { errorIfNotFiniteNumber } from 'error-if-not-finite-number';
 
 
 // This function assumes that numbers have already been sorted in proper order
@@ -14,11 +14,11 @@ export function __getMedianFromOrdered(orderedNumbers: number[]): number {
 
 	if (isOdd(orderedNumbers.length)) {
 		let middleIndex = getRoundedDown(halfLength);
-		errorIfNotNumber(orderedNumbers[middleIndex]);
+		errorIfNotFiniteNumber(orderedNumbers[middleIndex]);
 		return orderedNumbers[middleIndex];
 	}
 	else {
-		errorIfNotAllValuesAreNumbers([
+		errorIfNotAllFiniteNumbers([
 			orderedNumbers[halfLength - 1], orderedNumbers[halfLength]
 		]);
 		return ((orderedNumbers[halfLength - 1] + orderedNumbers[halfLength]) / 2);

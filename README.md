@@ -1,6 +1,7 @@
 # getMedian(numbers): number   
    
-Returns median of `numbers`.  Does not modify `numbers`.
+Returns median of `numbers`.  Does not modify `numbers`.  
+`numbers` does not have to be pre-sorted in order.
 
 ## Examples
 ```
