@@ -1,4 +1,4 @@
-import {getMedian} from 'index.js';
+import {getMedian} from './index.js';
 // Test 1: error must be triggered if no argument is passed:
 let errorTriggered = false;
 try {
