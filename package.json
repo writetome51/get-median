@@ -1,9 +1,10 @@
 {
   "name": "@writetome51/get-median",
-  "version": "2.0.4",
+  "version": "3.0.0",
   "description": "Returns the median from an array of numbers",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc"
   },
