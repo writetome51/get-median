@@ -55,4 +55,23 @@ if (arr[0] === 21 && arr[1] === 1 && arr[2] === 10) console.log('test 9 passed')
 else console.log('test 9 FAILED');
 
 
-console.log(getMedian(['0', '0', 1, 2, '3', 4, 5, 8]));
+console.log(getMedian([19, 3, 5, 7, 9, 11, 13.3, 15, 21]));
+// --> 11
+
+console.log(getMedian([19, 3, 5, 7, 9, 11, 13.3, 15, 17, 21, 23, 1]));
+// --> 12.15
+
+console.log(getMedian([1, 2, '3', '0', 4, 5, 8]));
+// --> 3
+
+// Make sure each item in array is a number, or expect the
+// unexpected:
+
+console.log(getMedian([1, 2, 3, 'e', 4, 5, 8]));
+// --> NaN
+
+console.log(getMedian([1, 2, 3, false, 4, 5, 8]));
+// --> 3
+
+console.log(getMedian([1, 2, 3, 4, NaN, 7, 8, 9]));
+// --> NaN

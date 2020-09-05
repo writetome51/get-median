@@ -6,6 +6,7 @@ import {orderNumerically} from '@writetome51/order-numerically';
 
 
 export function getMedian(numbers) {
+	errorIfLengthIsZero(numbers);
 	let orderedNumbers = getOrdered(numbers);
 	return getMedianFromOrdered(orderedNumbers);
 
@@ -18,7 +19,6 @@ export function getMedian(numbers) {
 
 
 	function getMedianFromOrdered(numbers) {
-		errorIfLengthIsZero(numbers);
 		const toNum = Number, length = numbers.length, halfLength = length / 2;
 
 		if (isOdd(length)) {
