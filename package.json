@@ -1,7 +1,7 @@
 {
   "name": "@writetome51/get-median",
-  "version": "2.0.3",
-  "description": "Returns the median from an array of numbers.",
+  "version": "2.0.4",
+  "description": "Returns the median from an array of numbers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -19,11 +19,10 @@
   "license": "MIT",
   "homepage": "https://github.com/writetome51/get-median#readme",
   "dependencies": {
-    "@writetome51/is-odd-is-even": "~1.0.3",
-    "@writetome51/get-rounded-up-down": "~1.0.10",
-    "@writetome51/get-in-numeric-order": "~1.0.1",
-    "error-if-not-all-finite-numbers": "~1.0.0",
-    "error-if-not-populated-array": "~1.0.2",
-    "error-if-not-finite-number": "~1.0.0"
+    "@writetome51/get-array-copy": ">=1.0.0",
+    "@writetome51/get-rounded-up-down": ">=3.0.1",
+    "@writetome51/is-odd-is-even": ">=2.0.0",
+    "@writetome51/order-numerically": ">=1.0.0",
+    "error-if-length-is-zero": ">=1.0.1"
   }
 }

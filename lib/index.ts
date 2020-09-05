@@ -1,8 +1,16 @@
-import { getInNumericOrder } from '@writetome51/get-in-numeric-order';
-import { __getMedianFromOrdered } from './privy/__getMedianFromOrdered';
+import { getArrayCopy } from '@writetome51/get-array-copy';
+import { getMedianFromOrdered } from './__privy';
+import { orderNumerically } from '@writetome51/order-numerically';
 
 
 export function getMedian(numbers): number {
-	let orderedNumbers = getInNumericOrder(numbers);
-	return __getMedianFromOrdered(orderedNumbers);
+	let orderedNumbers = getOrdered(numbers);
+	return getMedianFromOrdered(orderedNumbers);
+
+
+	function getOrdered(numbers) {
+		numbers = getArrayCopy(numbers);
+		orderNumerically(numbers);
+		return numbers;
+	}
 }
